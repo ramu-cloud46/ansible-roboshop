@@ -1,12 +1,12 @@
-- name: create ec2 and r53
+-- name: create ec2 and r53
   hosts: local
   connection: local
   vars:
     ami_id: ami-09c813fb71547fc4f
     sg_id: sg-003a1ec35e4e3a5d2
-    zone_id: "Z05501203FGAGMYPQKVJK" 
+    zone_id: "Z05501203FGAGMYPQKVJK"
     domain_name: "daws86sh.fun"
-     # we can pass instances through command line using -e
+    # we can pass instances through command line using -e
     # instances: 
     # - mongodb
     # - redis
